@@ -1,4 +1,4 @@
-# front-end-update
+# front-end-update - this is a branch for communities
 
 This template should help get you started developing with Vue 3 in Vite.
 
