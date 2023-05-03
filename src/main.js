@@ -1,11 +1,29 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
+import PrimeVue from "primevue/config";
 
-import './assets/main.css'
+import "primevue/resources/themes/lara-light-indigo/theme.css";
+import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
 
-const app = createApp(App)
+import "primeflex/primeflex.css";
 
-app.use(router)
+import Button from "primevue/button";
+import InputText from "primevue/inputtext";
+import InputMask from "primevue/inputmask";
+import Password from "primevue/password";
+import Card from "primevue/card";
 
-app.mount('#app')
+const app = createApp(App);
+
+app.use(PrimeVue);
+app.use(router);
+
+app.component('pv-button', Button);
+app.component('pv-input-text', InputText);
+app.component('pv-input-mask', InputMask);
+app.component('pv-password', Password);
+app.component('pv-card', Card);
+
+app.mount('#app');
