@@ -10,6 +10,7 @@ import { i18n } from "@/locales/i18n";
 
 import "primeflex/primeflex.css";
 
+import Toolbar from "primevue/toolbar";
 import Button from "primevue/button";
 import InputText from "primevue/inputtext";
 import InputMask from "primevue/inputmask";
@@ -27,6 +28,7 @@ app.use(PrimeVue);
 app.use(router);
 app.use(i18n);
 
+app.component('pv-toolbar', Toolbar);
 app.component('pv-button', Button);
 app.component('pv-input-text', InputText);
 app.component('pv-input-mask', InputMask);

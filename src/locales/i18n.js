@@ -12,6 +12,7 @@ export const i18n = createI18n ({
             "Choose your community's privacy": 'Choose your community\'s privacy',
             "Community Profile Picture": 'Community Profile Picture',
             "Create community": 'Create community',
+            "All rights reserved": 'All rights reserved',
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -22,6 +23,7 @@ export const i18n = createI18n ({
             "Choose your community's privacy": 'Elige la privacidad de tu comunidad',
             "Community Profile Picture": 'Imagen de la Comunidad',
             "Create community": 'Crear comunidad',
+            "All rights reserved": 'Todos los derechos reservados',
         }
     }
 })
