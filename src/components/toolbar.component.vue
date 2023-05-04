@@ -6,9 +6,15 @@
         </template>
 
         <template #end>
-            <pv-button icon="pi pi-user" severity="success" class="mr-2" />
-            <pv-button icon="pi pi-users" severity="help" class="mr-2" />
-            <pv-button icon="pi pi-star" severity="warning" />
+            <router-link to="/login">
+                <pv-button icon="pi pi-user" severity="success" class="mr-2" />
+            </router-link>
+            <router-link to="/new-community">
+                <pv-button icon="pi pi-users" severity="help" class="mr-2" />
+            </router-link>
+            <router-link to="/new-activity">
+                <pv-button icon="pi pi-star" severity="warning" />
+            </router-link>
         </template>
     </pv-toolbar>
 </template>
