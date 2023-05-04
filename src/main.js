@@ -12,6 +12,7 @@ import "primeflex/primeflex.css";
 
 import Toolbar from "primevue/toolbar";
 import Button from "primevue/button";
+import Checkbox from "primevue/checkbox";
 import InputText from "primevue/inputtext";
 import InputMask from "primevue/inputmask";
 import Password from "primevue/password";
@@ -30,6 +31,7 @@ app.use(i18n);
 
 app.component('pv-toolbar', Toolbar);
 app.component('pv-button', Button);
+app.component("pv-checkbox", Checkbox);
 app.component('pv-input-text', InputText);
 app.component('pv-input-mask', InputMask);
 app.component('pv-password', Password);
