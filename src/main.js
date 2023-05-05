@@ -44,6 +44,8 @@ app.component('pv-text-area', Textarea);
 app.component('pv-dropdown', Dropdown);
 app.component('pv-file-upload', FileUpload);
 app.component('pv-toast', Toast);
-app.directive('ripple', Ripple);
+app.component('pv-progressbar', ProgressBar);
+app.component('pv-menubar', Menubar);
+app.directive('pv-ripple', Ripple);
 
 app.mount('#app');

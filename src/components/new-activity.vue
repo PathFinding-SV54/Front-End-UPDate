@@ -43,10 +43,9 @@ const items = ref([
 ])
 export default {
     name: "new-activity.vue",
-    components: {PvInputText, PvPanel},
     data() {
         return {
-            dropOptions: ["Sport","Cultural","Quidditch"]
+            dropOptions: ["Sport","Cultural"]
         }
     }
 }
