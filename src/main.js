@@ -17,6 +17,9 @@ import InputText from "primevue/inputtext";
 import InputMask from "primevue/inputmask";
 import Password from "primevue/password";
 import Card from "primevue/card";
+import Ripple from "primevue/ripple";
+import ProgressBar from "primevue/progressbar";
+import Menubar from "primevue/menubar";
 import Panel from "primevue/panel";
 import Textarea from "primevue/textarea";
 import Dropdown from "primevue/dropdown";
@@ -41,5 +44,6 @@ app.component('pv-text-area', Textarea);
 app.component('pv-dropdown', Dropdown);
 app.component('pv-file-upload', FileUpload);
 app.component('pv-toast', Toast);
+app.directive('ripple', Ripple);
 
 app.mount('#app');
