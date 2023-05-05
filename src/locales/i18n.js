@@ -13,6 +13,11 @@ export const i18n = createI18n ({
             "Community Profile Picture": 'Community Profile Picture',
             "Create community": 'Create community',
             "All rights reserved": 'All rights reserved',
+            "LogIn": 'Log In',
+            "Username": 'Username',
+            "Password": 'Password',
+            "NoAccount": 'Don´t have an account?',
+            "Register": 'Register'
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -24,6 +29,11 @@ export const i18n = createI18n ({
             "Community Profile Picture": 'Imagen de la Comunidad',
             "Create community": 'Crear comunidad',
             "All rights reserved": 'Todos los derechos reservados',
+            "LogIn": 'Iniciar Sesión',
+            "Username": 'Usuario',
+            "Password": 'Contraseña',
+            "NoAccount": 'No tienes cuenta?',
+            "Register": 'Regístrate'
         }
     }
 })
