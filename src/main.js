@@ -25,10 +25,12 @@ import Textarea from "primevue/textarea";
 import Dropdown from "primevue/dropdown";
 import FileUpload from "primevue/fileupload";
 import Toast from "primevue/toast";
+import Avatar from "primevue/avatar";
+
 
 const app = createApp(App);
 
-app.use(PrimeVue);
+app.use(PrimeVue, {ripple: true});
 app.use(router);
 app.use(i18n);
 
@@ -46,6 +48,7 @@ app.component('pv-file-upload', FileUpload);
 app.component('pv-toast', Toast);
 app.component('pv-progressbar', ProgressBar);
 app.component('pv-menubar', Menubar);
+app.component('pv-avatar',Avatar);
 app.directive('pv-ripple', Ripple);
 
 app.mount('#app');
