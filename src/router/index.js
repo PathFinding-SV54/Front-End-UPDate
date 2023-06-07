@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import NewCommunity from "@/components/new-community.vue";
-import Suscription from "@/components/suscription.component.vue";
-import NewActivity from "@/components/new-activity.vue";
+import NewCommunity from "@/components/pages/new-community.vue";
+import Suscription from "@/components/views/suscription.component.vue";
+import NewActivity from "@/components/pages/new-activity.vue";
 import LoginComponent from "@/components/pages/login.component.vue";
 import SignupComponent from "@/components/pages/signup.component.vue";
 import NotFoundComponent from "@/components/views/not-found.component.vue";
