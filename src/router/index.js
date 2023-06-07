@@ -5,9 +5,11 @@ import NewActivity from "@/components/new-activity.vue";
 import LoginComponent from "@/components/pages/login.component.vue";
 import SignupComponent from "@/components/pages/signup.component.vue";
 import NotFoundComponent from "@/components/views/not-found.component.vue";
+import HomeComponent from "@/components/views/home.component.vue";
 
 const routes = [
     { path: '/', redirect: "/login" },
+    { path: '/home', component: HomeComponent },
     { path: '/login', component: LoginComponent },
     { path: '/signup', component: SignupComponent },
     { path: '/new-activity', component: NewActivity},

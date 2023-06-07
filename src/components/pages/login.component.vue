@@ -11,7 +11,7 @@
                     <pv-password v-model="password" id="password" :toggle-mask="true" :feedback="false" class="w-full" input-class="w-full" aria-labelledby="password"></pv-password>
                 </div>
                 <div class="button-container">
-                    <pv-button type="submit" label="Login" class="w-full mt-4"></pv-button>
+                    <pv-button type="submit" label="Sign in" class="w-full mt-4"></pv-button>
                 </div>
             </template>
             <template #footer>
