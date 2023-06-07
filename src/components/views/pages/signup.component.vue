@@ -43,7 +43,6 @@
                             <label for="confirm_password" class="block mt-1">{{ $t("ConfirmPassword") }}</label>
                             <pv-password v-model="confirm_password" id="confirm_password" :toggle-mask="true" :feedback="true" class="w-full" input-class="w-full" aria-labelledby="confirm_password">
                                 <template #content>
-                                    <pv-divider></pv-divider>
                                     <div
                                         v-if="passwordMatches && password != null"
                                         class="flex align-items-center"
