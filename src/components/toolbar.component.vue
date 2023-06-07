@@ -1,7 +1,7 @@
 <template>
     <pv-toolbar>
         <template #start>
-            <img src="../assets/Logo UPC - color_bg.png" height="60" width="60" />
+            <img src="../assets/Logo UPC - color_bg.png" height="60" width="60"  alt="UPDate Logo"/>
             <h2 class="app-name">UPDate</h2>
         </template>
 
