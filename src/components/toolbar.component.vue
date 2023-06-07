@@ -7,16 +7,16 @@
 
         <template #end>
             <router-link to="/home">
-                <pv-button icon="pi pi-home" severity="help" class="mr-2" />
+                <pv-button icon="pi pi-home" label="Home" severity="help" class="mr-2" />
             </router-link>
             <router-link to="/new-community">
-                <pv-button icon="pi pi-users" severity="primary" class="mr-2" />
+                <pv-button icon="pi pi-users" label="Communities" severity="primary" class="mr-2" />
             </router-link>
             <router-link to="/new-activity">
-                <pv-button icon="pi pi-star" severity="warning" class="mr-2" />
+                <pv-button icon="pi pi-bolt" label="Activities" severity="warning" class="mr-2" />
             </router-link>
             <router-link to="/suscription">
-                <pv-button icon="pi pi-credit-card" severity="success" class="mr-2" />
+                <pv-button icon="pi pi-credit-card" label="Pricing" severity="success" class="mr-2" />
             </router-link>
         </template>
     </pv-toolbar>
