@@ -14,6 +14,9 @@
                     <pv-button type="submit" label="Login" class="w-full mt-4"></pv-button>
                 </div>
             </template>
+            <template #footer>
+                {{ $t("New to UPDate") }} <router-link to="/signup">{{ $t("Create an account") }}</router-link>.
+            </template>
         </pv-card>
     </div>
 </template>

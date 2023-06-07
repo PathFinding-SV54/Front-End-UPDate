@@ -17,8 +17,8 @@ export const i18n = createI18n ({
             "LogIn": 'Log In',
             "Username": 'Username',
             "Password": 'Password',
-            "NoAccount": 'Don´t have an account?',
-            "Register": 'Register'
+            "New to UPDate": 'New to UPDate?',
+            "Create an account": 'Create an account'
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -34,8 +34,8 @@ export const i18n = createI18n ({
             "LogIn": 'Iniciar Sesión',
             "Username": 'Usuario',
             "Password": 'Contraseña',
-            "NoAccount": 'No tienes cuenta?',
-            "Register": 'Regístrate'
+            "New to UPDate": '¿Nuevo en UPDate?',
+            "Create an account": 'Crea tu cuenta'
         }
     }
 })
