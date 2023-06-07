@@ -14,11 +14,24 @@ export const i18n = createI18n ({
             "Create community": 'Create community',
             "All rights reserved": 'All rights reserved',
             "Sign in to UPDate": 'Sign in to UPDate',
+            "Sign up to UPDate": 'Sign up to UPDate',
             "LogIn": 'Log In',
+            "Email": 'E-mail',
             "Username": 'Username',
             "Password": 'Password',
+            "Suggestions": 'Suggestions',
+            "At least one lowercase": 'At least one lowercase',
+            "At least one uppercase": 'At least one uppercase',
+            "At least one special character": 'At least one special character',
+            "At least one number": 'At least one number',
+            "Minimum 8 characters": 'Minimum 8 characters',
+            "ConfirmPassword": 'Confirm Password',
+            "The passwords match": 'The passwords match',
+            "Passwords do not match": 'Passwords do not match',
+            "Birthday": 'Birthday',
             "New to UPDate": 'New to UPDate?',
-            "Create an account": 'Create an account'
+            "Create an account": 'Create an account',
+            "Already have an account": 'Already have an account?'
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -31,11 +44,24 @@ export const i18n = createI18n ({
             "Create community": 'Crear comunidad',
             "All rights reserved": 'Todos los derechos reservados',
             "Sign in to UPDate": 'Inicia sesión en UPDate',
+            "Sign up to UPDate": 'Regístrate en UPDate',
             "LogIn": 'Iniciar Sesión',
+            "Email": 'Correo electrónico',
             "Username": 'Usuario',
             "Password": 'Contraseña',
+            "Suggestions": 'Sugerencias',
+            "At least one lowercase": 'Al menos una minúscula',
+            "At least one uppercase": 'Al menos una mayúscula',
+            "At least one special character": 'Al menos un carácter especial',
+            "At least one number": 'Al menos un número',
+            "Minimum 8 characters": 'Mínimo 8 caracteres',
+            "ConfirmPassword": 'Confirmar Contraseña',
+            "The passwords match": 'Las contraseñas coinciden',
+            "Passwords do not match": 'Las contraseñas no coinciden',
+            "Birthday": 'Fecha de nacimiento',
             "New to UPDate": '¿Nuevo en UPDate?',
-            "Create an account": 'Crea tu cuenta'
+            "Create an account": 'Crea tu cuenta',
+            "Already have an account": '¿Ya tienes una cuenta?'
         }
     }
 })
