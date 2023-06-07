@@ -39,10 +39,6 @@ export default {
 
 <!-- Styling -->
 <style scoped>
-
-.creator {
-    align-items: center;
-}
 .new-activity-panel {
     max-width: 700px;
     margin: 0 auto;
