@@ -1,6 +1,6 @@
 <template>
     <div class="home-banner grid grid-nogutter surface-section text-800">
-        <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
+        <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center">
             <section>
                 <pv-card class="home-card-banner">
                     <template #header>
@@ -22,12 +22,6 @@
                         </router-link>
                     </template>
                 </pv-card>
-                <!-- block text-6xl font-bold mb-1 -->
-
-                <!-- text-6xl text-primary font-bold mb-3 -->
-
-
-
             </section>
         </div>
         <div class="col-12 md:col-6 overflow-hidden">
