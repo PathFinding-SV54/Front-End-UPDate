@@ -16,7 +16,7 @@
                 <pv-button icon="pi pi-star" severity="warning" class="mr-2" />
             </router-link>
             <router-link to="/suscription">
-                <pv-button icon="pi pi-users" severity="success" class="mr-2" />
+                <pv-button icon="pi pi-credit-card" severity="success" class="mr-2" />
             </router-link>
         </template>
     </pv-toolbar>

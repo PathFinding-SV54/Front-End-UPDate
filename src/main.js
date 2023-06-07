@@ -26,6 +26,7 @@ import Dropdown from "primevue/dropdown";
 import FileUpload from "primevue/fileupload";
 import Toast from "primevue/toast";
 import Avatar from "primevue/avatar";
+import Calendar from "primevue/calendar";
 
 
 const app = createApp(App);
@@ -49,6 +50,7 @@ app.component('pv-toast', Toast);
 app.component('pv-progressbar', ProgressBar);
 app.component('pv-menubar', Menubar);
 app.component('pv-avatar',Avatar);
+app.component('pv-calendar', Calendar);
 app.directive('pv-ripple', Ripple);
 
 app.mount('#app');
