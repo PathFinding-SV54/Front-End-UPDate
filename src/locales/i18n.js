@@ -34,7 +34,14 @@ export const i18n = createI18n ({
             "Birthday": 'Birthday',
             "New to UPDate": 'New to UPDate?',
             "Create an account": 'Create an account',
-            "Already have an account": 'Already have an account?'
+            "Already have an account": 'Already have an account?',
+            "Title": 'Title',
+            "Enter a title for the activity": 'Enter a title for the activity',
+            "What is the activity about? Write a description": "What is the activity about? Write a description",
+            "Type": 'Type',
+            "Select the activity type": 'Select the activity type',
+            "Create Activity": "Create Activity",
+            "Cancel": "Cancel",
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -67,7 +74,14 @@ export const i18n = createI18n ({
             "Birthday": 'Fecha de nacimiento',
             "New to UPDate": '¿Nuevo en UPDate?',
             "Create an account": 'Crea tu cuenta',
-            "Already have an account": '¿Ya tienes una cuenta?'
+            "Already have an account": '¿Ya tienes una cuenta?',
+            "Title": 'Título',
+            "Enter a title for the activity": 'Ingresa un título para la actividad',
+            "What is the activity about? Write a description": "¿De qué trata la actividad? Escribe una descripción",
+            "Type": 'Tipo',
+            "Select the activity type": 'Selecciona el tipo de actividad',
+            "Create Activity": "Crear Actividad",
+            "Cancel": "Cancelar",
         }
     }
 })

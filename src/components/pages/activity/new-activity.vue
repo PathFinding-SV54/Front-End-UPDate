@@ -1,28 +1,23 @@
 <template>
   <pv-panel class="new-activity-panel" :header="$t('NewActivity')">
       <div class="p-field">
-          <label for="activity-name" class="label">{{$t('Name')}}</label>
-          <pv-input-text class="input" v-model="name" id="name" :placeholder="$t('Enter a name for the activity')"/>
+          <label for="activity-title" class="label">{{$t('Title')}}</label>
+          <pv-input-text class="input" v-model="name" id="title" :placeholder="$t('Enter a title for the activity')"/>
       </div>
 
       <div class="p-field">
           <label for="activity-description" class="label">{{$t('Description')}}:</label>
-          <pv-text-area class="input" v-model="description" id="act-description" :placeholder="$t('Type a description for your activity')" />
+          <pv-text-area class="input" v-model="description" id="activity-description" auto-resize rows="3" :placeholder="$t('What is the activity about? Write a description')" />
       </div>
 
       <div class="p-field">
-          <label for="activity-visibility" class="label">{{$t('Visibility')}}</label>
-          <pv-dropdown class="input" v-model="selectedDrop" :options="dropOptions" :placeholder="$t('Select Visibility')" />
-      </div>
-
-      <div class="p-field">
-          <div class="creator">
-            <pv-avatar image="src/assets/pic-profile.jpeg" class="mr-2" size="xlarge" shape="circle" />
-          </div>
+          <label for="activity-type" class="label">{{$t('Type')}}</label>
+          <pv-dropdown class="input" v-model="selectedDrop" :options="dropOptions" :placeholder="$t('Select the activity type')" />
       </div>
 
       <div class="button-container">
-          <pv-button class="com-button" :label="$t('Create Activity')" />
+          <pv-button class="com-button" severity="primary" :label="$t('Create Activity')" />
+          <pv-button class="com-button" severity="danger" outlined :label="$t('Cancel')" />
       </div>
 
   </pv-panel>
