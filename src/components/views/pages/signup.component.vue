@@ -1,10 +1,10 @@
 <template>
     <div class="card-container">
-        <pv-card class="signin-card">
+        <pv-card class="sign-in-card">
             <template #title> {{$t("Sign up to UPDate")}} </template>
             <template #content>
                 <div class="form-fields">
-                    <div class="formgrid grid">
+                    <div class="form-grid grid">
 
                         <!--FIELD: E-mail-->
                         <div class="field col">
@@ -19,7 +19,7 @@
                         </div>
                     </div>
 
-                    <div class="formgrid grid">
+                    <div class="form-grid grid">
                         <!--FIELD: Password-->
                         <div class="field col">
                             <label for="password" class="block mt-1">{{ $t("Password") }}</label>
