@@ -1,7 +1,7 @@
 import { createI18n } from 'vue-i18n';
 
 export const i18n = createI18n ({
-    locale: 'es',
+    locale: 'en',
     messages: {
         en: {
             "NewCommunity": 'New Community',
