@@ -1,18 +1,27 @@
 <template>
     <div class="home-banner grid grid-nogutter surface-section text-800">
-        <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
+        <div class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center">
             <section>
-                <span class="block text-6xl font-bold mb-1">{{ $t("New experience") }}</span>
-                <div class="text-6xl text-primary font-bold mb-3">{{ $t("College life") }}</div>
-                <p class="mt-0 mb-4 text-700 line-height-3">{{ $t("Discover,Plan & Friends") }}</p>
+                <pv-card class="home-card-banner">
+                    <template #header>
+                        <p class="home-title-1">{{ $t("New experience") }}</p>
+                        <p class="home-title-2">{{ $t("College life") }}</p>
+                    </template>
+                    <template #content>
+                        <div class="description">
+                            <p>{{ $t("Discover,Plan & Friends") }}</p>
+                        </div>
+                    </template>
+                    <template #footer>
+                        <router-link to="/login">
+                            <pv-button label="Sign in" type="button" class="mr-3 p-button-raised"></pv-button>
+                        </router-link>
 
-                <router-link to="/login">
-                    <pv-button label="Sign in" type="button" class="mr-3 p-button-raised"></pv-button>
-                </router-link>
-
-                <router-link to="/signup">
-                    <pv-button label="Sign up" type="button" class="p-button-outlined"></pv-button>
-                </router-link>
+                        <router-link to="/signup">
+                            <pv-button label="Sign up" type="button" class="p-button-outlined"></pv-button>
+                        </router-link>
+                    </template>
+                </pv-card>
             </section>
         </div>
         <div class="col-12 md:col-6 overflow-hidden">
@@ -29,9 +38,29 @@ export default {
 
 <style scoped>
 .home-banner {
-    height: 50vh;
-    min-height: 600px;
-    max-height: 800px;
+    height: 25vh;
+    min-height: 300px;
+    max-height: 400px;
+}
+
+.home-card-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.home-title-1 {
+    font-size: clamp(40px, 2rem, 100px);
+    font-weight: 700;
+    margin-bottom: -40px;
+}
+
+.home-title-2 {
+    font-size: clamp(40px, 2rem, 100px);
+    font-weight: 700;
+    margin-bottom: -20px;
 }
 
 .home-image {
