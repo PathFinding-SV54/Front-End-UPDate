@@ -8,7 +8,7 @@ import NotFoundComponent from "@/components/views/not-found.component.vue";
 import HomeComponent from "@/components/views/home.component.vue";
 
 const routes = [
-    { path: '/', redirect: "/login" },
+    { path: '/', redirect: "/home" },
     { path: '/home', component: HomeComponent },
     { path: '/login', component: LoginComponent },
     { path: '/signup', component: SignupComponent },
