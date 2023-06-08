@@ -2,7 +2,7 @@
     <pv-toolbar class="toolbar-header">
         <template #start>
             <div class="logo-container">
-                <img src="../assets/Logo UPC - color_bg.png" height="60" width="60"  alt="UPDate Logo"/>
+                <img :src="LogoUPC" height="60" width="60"  alt="UPDate Logo"/>
                 <h2 class="app-name">UPDate</h2>
             </div>
         </template>
@@ -37,6 +37,7 @@
 </template>
 
 <script>
+import LogoUPC from "@/assets/Logo UPC - color_bg.png";
 export default {
     name: "toolbar.component",
     data() {
@@ -63,7 +64,8 @@ export default {
                     icon: "pi pi-credit-card",
                     command: () => this.navigateTo("/suscription")
                 }
-            ]
+            ],
+            LogoUPC
         }
     },
     mounted() {

@@ -25,14 +25,20 @@
             </section>
         </div>
         <div class="col-12 md:col-6 overflow-hidden">
-            <img src="src/assets/college-friends-hanging.jpg" alt="Image" class="home-image md:ml-auto block md:h-full" style="clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%)">
+            <img :src="CollegeFriendsImage" alt="Image" class="home-image md:ml-auto block md:h-full" style="clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%)">
         </div>
     </div>
 </template>
 
 <script>
+import CollegeFriendsImage from '@/assets/college-friends-hanging.jpg';
 export default {
     name: "home.component",
+    data() {
+        return {
+            CollegeFriendsImage,
+        }
+    },
 }
 </script>
 
