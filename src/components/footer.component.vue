@@ -19,7 +19,6 @@ export default {
     padding: 1rem;
     text-align: center;
     width: 100%;
-    position: fixed;
     bottom: 0;
     left: 0;
 }
