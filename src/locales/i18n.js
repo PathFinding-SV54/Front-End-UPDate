@@ -46,6 +46,7 @@ export const i18n = createI18n ({
             "Date": "Date",
             "Location": "Location",
             "NewActivity": "New Activity",
+            "CurrentActivities": "Current Activities",
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -90,6 +91,7 @@ export const i18n = createI18n ({
             "Date": "Fecha",
             "Location": "Ubicación",
             "NewActivity": "Nueva Actividad",
+            "CurrentActivities": "Actividades Actuales",
         }
     }
 })

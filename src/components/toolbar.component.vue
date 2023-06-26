@@ -24,7 +24,7 @@
                     <router-link to="/new-community">
                         <pv-button icon="pi pi-users" label="Communities" severity="primary" class="mr-2" />
                     </router-link>
-                    <router-link to="/new-activity">
+                    <router-link to="/list-activities">
                         <pv-button icon="pi pi-bolt" label="Activities" severity="warning" class="mr-2" />
                     </router-link>
                     <router-link to="/suscription">
@@ -57,7 +57,7 @@ export default {
                 {
                     label: "Activities",
                     icon: "pi pi-bolt",
-                    command: () => this.navigateTo("/new-activity")
+                    command: () => this.navigateTo("/list-activities")
                 },
                 {
                     label: "Pricing",
