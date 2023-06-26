@@ -28,7 +28,12 @@ import Toast from "primevue/toast";
 import Avatar from "primevue/avatar";
 import Calendar from "primevue/calendar";
 import SplitButton from "primevue/splitbutton";
-
+import DataTable from "primevue/datatable";
+import Column from "primevue/column";
+import ColumnGroup from "primevue/columngroup";
+import Row from "primevue/row";
+import AutoComplete from "primevue/autocomplete";
+import Message from "primevue/message";
 
 const app = createApp(App);
 
@@ -53,6 +58,12 @@ app.component('pv-menubar', Menubar);
 app.component('pv-avatar',Avatar);
 app.component('pv-calendar', Calendar);
 app.component('pv-split-button', SplitButton);
+app.component('pv-data-table', DataTable);
+app.component('pv-column', Column);
+app.component('pv-column-group', ColumnGroup);
+app.component('pv-row', Row);
+app.component('pv-auto-complete', AutoComplete);
+app.component('pv-message', Message);
 app.directive('pv-ripple', Ripple);
 
 app.mount('#app');

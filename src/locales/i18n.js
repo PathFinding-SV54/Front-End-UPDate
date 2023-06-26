@@ -42,6 +42,10 @@ export const i18n = createI18n ({
             "Select the activity type": 'Select the activity type',
             "Create Activity": "Create Activity",
             "Cancel": "Cancel",
+            "Description": "Description",
+            "Date": "Date",
+            "Location": "Location",
+            "NewActivity": "New Activity",
         },
         es: {
             "NewCommunity": 'Nueva Comunidad',
@@ -82,6 +86,10 @@ export const i18n = createI18n ({
             "Select the activity type": 'Selecciona el tipo de actividad',
             "Create Activity": "Crear Actividad",
             "Cancel": "Cancelar",
+            "Description": "Descripción",
+            "Date": "Fecha",
+            "Location": "Ubicación",
+            "NewActivity": "Nueva Actividad",
         }
     }
 })
