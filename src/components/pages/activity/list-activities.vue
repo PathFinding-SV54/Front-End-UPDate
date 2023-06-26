@@ -10,6 +10,7 @@ export default {
       locationService: new LocationService(),
       activities: [],
       locations: [],
+      layout: 'grid',
     }
   },
   mounted() {
@@ -45,7 +46,7 @@ export default {
 
 <template>
   <div class="activity-list-card">
-    <pv-data-view :value="activities">
+    <pv-data-view :value="activities" :layout="layout" :paginator="true" :rows="6" :totalRecords="activities.length">
       <template #header>
         <div class="flex flex-wrap align-items-center justify-content-between gap-2">
           <span class="text-xl text-900 font-bold">{{ $t('CurrentActivities') }}</span>
@@ -73,6 +74,27 @@ export default {
                 <span class="text-l font-semibold">{{ slotProps.data.activityDate }}</span>
                 <pv-button rounded label="I'll assit!" severity="warning" :disabled="slotProps.data.isActive === false" />
               </div>
+            </div>
+          </div>
+        </div>
+      </template>
+      <template #grid="slotProps">
+        <div class="col-12 sm:col-6 lg:col-12 xl:col-4 p-2">
+          <div class="p-4 border-1 surface-border surface-card border-round">
+            <div class="flex flex-wrap align-items-center justify-content-between gap-2">
+              <div class="flex align-items-center gap-2">
+                <i class="pi pi-tag"></i>
+                <span class="font-semibold">{{ slotProps.data.activityType }}</span>
+              </div>
+            </div>
+            <div class="flex flex-column align-items-center gap-3 py-5">
+              <img class="activity-image" :src="slotProps.data.locationImageUrl" :alt="slotProps.data.activityTitle">
+              <div class="text-2xl font-bold text-900">{{ slotProps.data.activityTitle }}</div>
+              <div class="text-lg text-500">{{ slotProps.data.activityDescription }}</div>
+            </div>
+            <div class="flex align-items-center justify-content-between">
+              <span class="text-l font-semibold">{{ slotProps.data.activityDate }}</span>
+              <pv-button rounded label="I'll assit!" severity="warning" :disabled="slotProps.data.isActive === false" />
             </div>
           </div>
         </div>
