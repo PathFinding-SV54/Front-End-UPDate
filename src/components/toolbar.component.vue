@@ -11,7 +11,6 @@
             <div class="button-container">
                 <div v-if="isMobile" class="mobile-menu">
                     <pv-split-button
-                        label="Menu"
                         icon="pi pi-bars"
                         :model="menuItems"
                         class="mobile-menu-button"

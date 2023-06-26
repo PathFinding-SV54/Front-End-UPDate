@@ -21,11 +21,15 @@ import Footer from "@/components/footer.component.vue";
 
 <style scoped>
 header {
-    position: sticky;
-    top: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
 }
 main {
-    margin-top: 10px;
+    margin-top: 185px;
     margin-bottom: 80px;
 }
 
