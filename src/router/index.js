@@ -6,6 +6,7 @@ import LoginComponent from "@/components/pages/user/login.component.vue";
 import SignupComponent from "@/components/pages/user/signup.component.vue";
 import NotFoundComponent from "@/components/views/not-found.component.vue";
 import HomeComponent from "@/components/views/home.component.vue";
+import ListActivities from "@/components/pages/activity/list-activities.vue";
 
 const routes = [
     { path: '/', redirect: "/home" },
@@ -13,6 +14,7 @@ const routes = [
     { path: '/login', component: LoginComponent },
     { path: '/signup', component: SignupComponent },
     { path: '/new-activity', component: NewActivity},
+    { path: '/list-activities', component: ListActivities },
     { path: '/new-community', component: NewCommunity },
     { path: '/suscription', component: Suscription },
     { path: '/:catchAll(.*)', component: NotFoundComponent },
